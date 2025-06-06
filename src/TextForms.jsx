@@ -1,5 +1,4 @@
 import React ,{useState}from 'react'
-import App from './App';
 export default function TextForms(props) {
     const[text,setText]=useState("Enter Text Here?")
     const[font,setFont]=useState("Arial")
