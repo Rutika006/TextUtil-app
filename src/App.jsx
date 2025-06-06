@@ -44,7 +44,7 @@ const toggleMode=()=>{
     
 return (
   <>
-    <Router>   
+    <Router basename="/TextUtil-app">   
       <Navbar title="textutils" aboutText="About" mode={mode} toggleMode={toggleMode} />
       <div className="container my-3">
         <Alert alert={alert} />
