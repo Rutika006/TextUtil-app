@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import App from '../App'
 export default function About(props) {
 //  const[btn,setBtn]=useState("Enable Dark Mode")
 //  const[myStyle,setMyStyle]=useState({
